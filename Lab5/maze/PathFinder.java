@@ -42,7 +42,7 @@ public class PathFinder {
 		 * Initialise the fields for this PathFinder object using
 		 * the given Maze object and an empty stack. 
 		 */
-
+		this.maze = maze;
 		
 		
 	}
@@ -144,6 +144,7 @@ public class PathFinder {
 	 *      (i.e. the top of the stack keeps the entrance position)
 	 */	
 	private StackADT<Position> reverse() {
+		
 		/* !!!!
 		 * 1. Create a new stack object for holding the path.
 		 * 2. Pop an element from the reversed path stack and 
@@ -151,9 +152,9 @@ public class PathFinder {
 		 * 3. Repeat Step (2) until no more elements to work with.
 		 * 4. Return the result stack.  
 		 */
-
 		
 		
+		return reversedPath;
 	}
 
 	/**

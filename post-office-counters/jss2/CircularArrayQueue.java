@@ -160,9 +160,10 @@ public class CircularArrayQueue<T> implements QueueADT<T>
 		 * 		to our result string. Make sure that the index can "loop back"
 		 * 		at the required location.
 		 */
-
 		
-		
+		 for (int i = 0; i < contents.length; i++) {
+			result += contents[i].toString();
+		}
 		
 		return result;
 	}

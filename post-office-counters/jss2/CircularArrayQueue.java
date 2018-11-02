@@ -57,6 +57,7 @@ public class CircularArrayQueue<T> implements QueueADT<T>
 	 ******************************************************************/
 	public T dequeue() throws IllegalStateException
 	{
+
 		/* !!!! 
 		 * Attempting to remove an element from an empty queue will lead to an error.
 		 * In that case, simply throws an appropriate exception.
@@ -68,8 +69,10 @@ public class CircularArrayQueue<T> implements QueueADT<T>
 		 *    (Remember that it is a circular queue, hence "loop-back" may be needed.)
 		 * 4. Return the removed element.
 		 */
-
 		
+		
+		
+		return null;
 		
 		
 	}
